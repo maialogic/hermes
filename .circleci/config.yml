@@ -34,3 +34,9 @@ jobs:
           command: yarn test:ci
       - store_artifacts:
           path: coverage
+
+workflows:
+  version: 2
+  ci:
+    jobs:
+      - test
