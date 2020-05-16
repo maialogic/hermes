@@ -4,7 +4,7 @@ defaults: &set_environment
   docker:
     - image: circleci/node:latest
 
-step_restore_cache: &reastore_cache
+step_restore_cache: &restore_cache
   restore_cache:
     keys:
       - v1-dependencies-{{ checksum "yarn.lock" }}
@@ -14,7 +14,6 @@ step_install_deps: &install_deps
   run:
     name: Install Dependencies
     command: yarn --frozen-lockfile
-
 
 step_save_cache: &save_cache
   save_cache:
