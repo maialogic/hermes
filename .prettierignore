@@ -1,0 +1,10 @@
+**/*.svg
+**/*.yml
+.gitignore
+.pnp.js
+.prettierignore
+.stylelintrc
+.yarn
+dist/
+yarn-error.log
+yarn.lock

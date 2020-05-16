@@ -1,3 +1,41 @@
 {
-  "name": "hermes"
+  "name": "hermes",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "conventional-changelog-cli": "^2.0.34",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "eslint-plugin-unicorn": "^20.0.0",
+    "husky": "^4.2.5",
+    "less": "^3.11.1",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.3.3",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.0.0",
+    "typescript": "^3.9.2"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "lint": "yarn lint:script && yarn lint:style",
+    "lint:script": "eslint . --ext '.js,.jsx,.ts,.tsx'",
+    "lint:style": "stylelint '**/*.less' --syntax less",
+    "prettier": "prettier -c --write '**/*'"
+  },
+  "lint-staged": {
+    "*": "yarn lint"
+  }
 }
