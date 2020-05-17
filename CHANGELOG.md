@@ -1,9 +1,12 @@
-##  (2020-05-16)
+# (2020-05-17)
 
-* chore: add circleci workflow ([0b6f525](https://github.com-maialogic_donquixote/maialogic/hermes/commit/0b6f525))
-* chore: add dotfiles ([f2a9d33](https://github.com-maialogic_donquixote/maialogic/hermes/commit/f2a9d33))
-* fix: circleci config ([5e34dcf](https://github.com-maialogic_donquixote/maialogic/hermes/commit/5e34dcf))
-* Initial commit ([87ca106](https://github.com-maialogic_donquixote/maialogic/hermes/commit/87ca106))
+### Bug Fixes
 
+- circleci config ([5e34dcf](https://github.com-maialogic_donquixote/maialogic/hermes/commit/5e34dcffbbdab27b2eab681e587de61317663d1a))
 
+## (2020-05-16)
 
+- chore: add circleci workflow ([0b6f525](https://github.com-maialogic_donquixote/maialogic/hermes/commit/0b6f525))
+- chore: add dotfiles ([f2a9d33](https://github.com-maialogic_donquixote/maialogic/hermes/commit/f2a9d33))
+- fix: circleci config ([5e34dcf](https://github.com-maialogic_donquixote/maialogic/hermes/commit/5e34dcf))
+- Initial commit ([87ca106](https://github.com-maialogic_donquixote/maialogic/hermes/commit/87ca106))

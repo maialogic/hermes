@@ -1,5 +1,3 @@
-# Yarn
-.yarn/*
-!.yarn/cache
-!.yarn/releases
-!.yarn/plugins
+.dist
+.vscode
+node_modules
