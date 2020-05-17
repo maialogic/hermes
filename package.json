@@ -74,6 +74,8 @@
     "start": "cross-env-shell NODE_ENV=development ts-node --files -r tsconfig-paths/register ./scripts/start.ts --open"
   },
   "lint-staged": {
-    "*": "yarn lint"
+    "*": [
+      "lint"
+    ]
   }
 }
